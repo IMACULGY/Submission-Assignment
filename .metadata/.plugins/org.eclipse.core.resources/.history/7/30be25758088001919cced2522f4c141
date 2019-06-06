@@ -42,8 +42,9 @@ public class You{
 	
 	public String setFavoriteAnimal(String animal)
 	{
+		String temp = favoriteAnimal;
 		favoriteAnimal = animal;
-		return favoriteAnimal;
+		return temp;
 	}
 	
 	public int happyBirthday()
